@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IX.DataRemoting", "IX.DataRemoting\IX.DataRemoting.csproj", "{33091076-6A32-4453-A66D-01B5818ACABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{4E7DF941-0EC7-45F6-BA93-7ECAFAFA5226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Configurations", "Build Configurations", "{38DCEA93-6CC6-4017-AD84-D31E548445FA}"
+	ProjectSection(SolutionItems) = preProject
+		azure.devops.devci.yaml = azure.devops.devci.yaml
+		azure.devops.masterci.yaml = azure.devops.masterci.yaml
+		azure.devops.releasebuild.yaml = azure.devops.releasebuild.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IX.IPC.Core", "IX.IPC.Core\IX.IPC.Core.csproj", "{A5DA89D5-925B-4662-88A3-A07FC59E78CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33091076-6A32-4453-A66D-01B5818ACABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33091076-6A32-4453-A66D-01B5818ACABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33091076-6A32-4453-A66D-01B5818ACABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33091076-6A32-4453-A66D-01B5818ACABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DA89D5-925B-4662-88A3-A07FC59E78CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DA89D5-925B-4662-88A3-A07FC59E78CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DA89D5-925B-4662-88A3-A07FC59E78CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DA89D5-925B-4662-88A3-A07FC59E78CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38DCEA93-6CC6-4017-AD84-D31E548445FA} = {4E7DF941-0EC7-45F6-BA93-7ECAFAFA5226}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1E54DB-287F-416E-898A-3A0FE5043D70}
+	EndGlobalSection
+EndGlobal
